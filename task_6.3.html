@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family : arial,sans-serif;
+                background-image: url('https://images.pexels.com/photos/3182749/pexels-photo-3182749.jpeg');
+                background-size : cover;
+                background-repeat : no-repeat;
+                background-position : center;
+            }
+            h2{
+                margin-bottom : 20px;
+                font-size:20px;
+            }
+            .login-box{
+                width : 350px;
+                margin : 80px auto;
+                padding : 30px;
+                background : rgba(0, 0, 0, 0.7);
+                color : white;
+                text-align : center;
+                position : relative;
+            }
+            input[type="text"],input[type="password"] {
+                width : 90%;
+                padding : 10px;
+                margin : 10px 0;
+                border-radius : 2px;
+                border-bottom : 2px solid white;
+            }
+            .terms{
+                margin-top : 10px;
+                margin-left : 5px;
+                font-size : 13px;
+                text-align : left;
+            }
+            .terms a{
+                color:#00ffff;
+                text-decoration : underline;
+            }
+            .btn{
+                color: white;
+                background : orange;
+                cursor : pointer;
+                margin-top : 5px;
+                padding : 10px 20px;
+                border : 1px solid black;
+                width : 95%;
+                font-size:14px;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-box">
+            <h2>LOGIN WINDOW</h2>
+            <input type="text" placeholder="Your Email Address"><br>
+            <input type="password" placeholder="Your Password"><br>
+            <div class="terms">
+                <input type="checkbox">Agree With <a href="#">Terms & Conditions</a>
+            </div><br>
+            <button class="btn">Login</button>
+        </div>
+    </body>
+</html>
